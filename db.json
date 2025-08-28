@@ -1,0 +1,509 @@
+{
+  "dashboards": [
+    {
+      "id": "2",
+      "id_project": 2,
+      "id_user": 3,
+      "chats": [
+        {
+          "id": 1,
+          "status": 1,
+          "createDate": "2025-08-22T14:28:18.990000",
+          "lastUpdateDate": "2025-08-22T14:28:18.990000",
+          "lastUpdateUser": "adminfinsight@alicorp.com",
+          "createUser": "adminfinsight@alicorp.com",
+          "id_project": 2,
+          "id_chat": 2755,
+          "id_user": 3,
+          "title_chat": "sssssaaaaaa",
+          "favorite": 1756161209188,
+          "graficos": [
+            {
+              "id": 15987,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              "description": "A simple bar chart with ranged data (aka Gantt Chart).",
+              "data": {
+                "values": [
+                  {
+                    "task": "A",
+                    "start": 1,
+                    "end": 3
+                  },
+                  {
+                    "task": "B",
+                    "start": 3,
+                    "end": 8
+                  },
+                  {
+                    "task": "C",
+                    "start": 8,
+                    "end": 10
+                  }
+                ]
+              },
+              "mark": "bar",
+              "encoding": {
+                "y": {
+                  "field": "task",
+                  "type": "ordinal"
+                },
+                "x": {
+                  "field": "start",
+                  "type": "quantitative"
+                },
+                "x2": {
+                  "field": "end"
+                }
+              }
+            },
+            {
+              "id": 15988,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+              "data": {
+                "values": [
+                  {
+                    "a": "A",
+                    "b": 28
+                  },
+                  {
+                    "a": "B",
+                    "b": 55
+                  },
+                  {
+                    "a": "C",
+                    "b": 43
+                  }
+                ]
+              },
+              "encoding": {
+                "y": {
+                  "field": "a",
+                  "type": "nominal"
+                },
+                "x": {
+                  "field": "b",
+                  "type": "quantitative",
+                  "scale": {
+                    "domain": [
+                      0,
+                      60
+                    ]
+                  }
+                }
+              },
+              "layer": [
+                {
+                  "mark": "bar"
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "align": "left",
+                    "baseline": "middle",
+                    "dx": 3
+                  },
+                  "encoding": {
+                    "text": {
+                      "field": "b",
+                      "type": "quantitative"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": 15989,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              "config": {
+                "view": {
+                  "stroke": ""
+                }
+              },
+              "width": 800,
+              "height": 200,
+              "data": {
+                "values": [
+                  {
+                    "country": "Great Britain",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "Great Britain",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "pigs"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "cattle"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  },
+                  {
+                    "country": "United States",
+                    "animal": "sheep"
+                  }
+                ]
+              },
+              "transform": [
+                {
+                  "calculate": "{'cattle': '🐄', 'pigs': '🐖', 'sheep': '🐏'}[datum.animal]",
+                  "as": "emoji"
+                },
+                {
+                  "window": [
+                    {
+                      "op": "rank",
+                      "as": "rank"
+                    }
+                  ],
+                  "groupby": [
+                    "country",
+                    "animal"
+                  ]
+                }
+              ],
+              "mark": {
+                "type": "text",
+                "baseline": "middle"
+              },
+              "encoding": {
+                "x": {
+                  "field": "rank",
+                  "type": "ordinal",
+                  "axis": null
+                },
+                "y": {
+                  "field": "animal",
+                  "type": "nominal",
+                  "axis": null,
+                  "sort": null
+                },
+                "row": {
+                  "field": "country",
+                  "header": {
+                    "title": ""
+                  }
+                },
+                "text": {
+                  "field": "emoji",
+                  "type": "nominal"
+                },
+                "size": {
+                  "value": 65
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "status": 1,
+          "createDate": "2025-08-15T17:38:29.466000",
+          "lastUpdateDate": "2025-08-15T17:38:29.466000",
+          "lastUpdateUser": "adminfinsight@alicorp.com",
+          "createUser": "adminfinsight@alicorp.com",
+          "id_project": 2,
+          "id_chat": 1934,
+          "id_user": 3,
+          "title_chat": "aaaaaaaa af",
+          "favorite": null,
+          "graficos": [
+            {
+              "id": 15987,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              "description": "A simple bar chart with embedded data.",
+              "data": {
+                "values": [
+                  {
+                    "a": "A",
+                    "b": 28
+                  },
+                  {
+                    "a": "B",
+                    "b": 55
+                  },
+                  {
+                    "a": "C",
+                    "b": 43
+                  },
+                  {
+                    "a": "D",
+                    "b": 91
+                  },
+                  {
+                    "a": "E",
+                    "b": 81
+                  },
+                  {
+                    "a": "F",
+                    "b": 53
+                  },
+                  {
+                    "a": "G",
+                    "b": 19
+                  },
+                  {
+                    "a": "H",
+                    "b": 87
+                  },
+                  {
+                    "a": "I",
+                    "b": 52
+                  }
+                ]
+              },
+              "mark": "bar",
+              "encoding": {
+                "x": {
+                  "field": "a",
+                  "type": "nominal",
+                  "axis": {
+                    "labelAngle": 0
+                  }
+                },
+                "y": {
+                  "field": "b",
+                  "type": "quantitative"
+                }
+              }
+            },
+            {
+              "id": 15988,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              "repeat": {
+                "layer": [
+                  "Worldwide Gross",
+                  "US Gross"
+                ]
+              },
+              "spec": {
+                "mark": "bar",
+                "encoding": {
+                  "x": {
+                    "field": "Major Genre",
+                    "type": "nominal"
+                  },
+                  "y": {
+                    "aggregate": "sum",
+                    "field": {
+                      "repeat": "layer"
+                    },
+                    "type": "quantitative",
+                    "title": "Total Gross"
+                  },
+                  "color": {
+                    "datum": {
+                      "repeat": "layer"
+                    },
+                    "title": "Gross"
+                  },
+                  "xOffset": {
+                    "datum": {
+                      "repeat": "layer"
+                    }
+                  }
+                }
+              },
+              "config": {
+                "mark": {
+                  "invalid": null
+                }
+              }
+            },
+            {
+              "id": 15989,
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+              
+              "mark": "bar",
+              "encoding": {
+                "x": {
+                  "aggregate": "sum",
+                  "field": "yield"
+                },
+                "y": {
+                  "field": "variety"
+                },
+                "color": {
+                  "field": "site"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "id_project": 4,
+      "id_user": 3,
+      "chats": [
+        {
+          "id": 1,
+          "status": 1,
+          "createDate": "2025-08-22T14:28:18.990000",
+          "lastUpdateDate": "2025-08-22T14:28:18.990000",
+          "lastUpdateUser": "adminfinsight@alicorp.com",
+          "createUser": "adminfinsight@alicorp.com",
+          "id_project": 2,
+          "id_chat": 2755,
+          "id_user": 3,
+          "title_chat": "reporte de acites"
+        },
+        {
+          "id": 2,
+          "status": 1,
+          "createDate": "2025-08-15T17:38:29.466000",
+          "lastUpdateDate": "2025-08-15T17:38:29.466000",
+          "lastUpdateUser": "adminfinsight@alicorp.com",
+          "createUser": "adminfinsight@alicorp.com",
+          "id_project": 2,
+          "id_chat": 1934,
+          "id_user": 3,
+          "title_chat": "Dame el top 10 de clientes con mayor incremento de volumen (en toneladas) en el último año YTD vs el año anterior."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 1500
+    },
+    {
+      "id": "2",
+      "name": "Mouse",
+      "price": 50
+    }
+  ]
+}
