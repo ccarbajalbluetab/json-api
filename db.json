@@ -14,579 +14,592 @@
         "id_project": 2,
         "id_chat": 2755,
         "id_user": 3,
-        "title_chat": "sssssaaaaaa",
-        "desc_chat": "",
+        "title_chat": "Top 10 clientes con mayor incremento de volumen (en toneladas) en el último año YTD vs el año anterior.",
+        "desc_chat": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "favorite": 1756161209188,
         "graficos": [
           {
-              "id": 1756161209188,
-              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-              "description": "Gráfico evolutivo del Volumen FY para la categoría Suavizantes en el año 2025, mostrando YTD y el resto del año.",
-              "title": "Volumen FY Evolutivo para Suavizantes (2025) - YTD vs. Resto del Año",
-              "data": {
-                  "values": [
-                      {
-                          "periodo": "2025-01-01 00:00:00",
-                          "Volumen_FY": 938
-                      },
-                      {
-                          "periodo": "2025-02-01 00:00:00",
-                          "Volumen_FY": 831
-                      },
-                      {
-                          "periodo": "2025-03-01 00:00:00",
-                          "Volumen_FY": 866
-                      },
-                      {
-                          "periodo": "2025-04-01 00:00:00",
-                          "Volumen_FY": 816
-                      },
-                      {
-                          "periodo": "2025-05-01 00:00:00",
-                          "Volumen_FY": 905
-                      },
-                      {
-                          "periodo": "2025-06-01 00:00:00",
-                          "Volumen_FY": 905
-                      },
-                      {
-                          "periodo": "2025-07-01 00:00:00",
-                          "Volumen_FY": 901
-                      },
-                      {
-                          "periodo": "2025-08-01 00:00:00",
-                          "Volumen_FY": 956
-                      },
-                      {
-                          "periodo": "2025-09-01 00:00:00",
-                          "Volumen_FY": 972
-                      },
-                      {
-                          "periodo": "2025-10-01 00:00:00",
-                          "Volumen_FY": 919
-                      },
-                      {
-                          "periodo": "2025-11-01 00:00:00",
-                          "Volumen_FY": 948
-                      },
-                      {
-                          "periodo": "2025-12-01 00:00:00",
-                          "Volumen_FY": 961
-                      }
-                  ]
-              },
-              "mark": {
-                  "type": "line",
-                  "point": true,
-                  "tooltip": true
-              },
-              "encoding": {
-                  "x": {
-                      "field": "periodo",
-                      "type": "temporal",
-                      "timeUnit": "yearmonth",
-                      "axis": {
-                          "title": "Periodo"
-                      }
-                  },
-                  "y": {
-                      "field": "Volumen_FY",
-                      "type": "quantitative",
-                      "axis": {
-                          "title": "Volumen FY"
-                      }
-                  },
-                  "color": {
-                      "field": "tipo_periodo",
-                      "type": "nominal",
-                      "legend": {
-                          "title": "Tipo de Periodo"
-                      }
-                  },
-                  "tooltip": [
-                      {
-                          "field": "periodo",
-                          "type": "temporal",
-                          "title": "Periodo",
-                          "format": "%b %Y"
-                      },
-                      {
-                          "field": "Volumen_FY",
-                          "type": "quantitative",
-                          "title": "Volumen FY"
-                      },
-                      {
-                          "field": "tipo_periodo",
-                          "title": "Tipo de Periodo"
-                      }
-                  ]
-              },
-              "transform": [
-                  {
-                      "calculate": "month(toDate(datum.periodo)) <= 6 ? 'YTD' : 'Resto del Año'",
-                      "as": "tipo_periodo"
-                  }
-              ]
-          },
-          {
-            "id": 154548,
+            "id": 1756161209188,
             "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "description": "A simple bar chart with ranged data (aka Gantt Chart).",
+            "description": "Gráfico evolutivo del Volumen FY para la categoría Suavizantes en el año 2025, mostrando YTD y el resto del año.",
+            "title": "Volumen FY Evolutivo para Suavizantes (2025) - YTD vs. Resto del Año",
             "data": {
               "values": [
                 {
-                  "task": "A",
-                  "start": 1,
-                  "end": 3
+                  "periodo": "2025-01-01 00:00:00",
+                  "Volumen_FY": 938
                 },
                 {
-                  "task": "B",
-                  "start": 3,
-                  "end": 8
+                  "periodo": "2025-02-01 00:00:00",
+                  "Volumen_FY": 831
                 },
                 {
-                  "task": "C",
-                  "start": 8,
-                  "end": 10
+                  "periodo": "2025-03-01 00:00:00",
+                  "Volumen_FY": 866
+                },
+                {
+                  "periodo": "2025-04-01 00:00:00",
+                  "Volumen_FY": 816
+                },
+                {
+                  "periodo": "2025-05-01 00:00:00",
+                  "Volumen_FY": 905
+                },
+                {
+                  "periodo": "2025-06-01 00:00:00",
+                  "Volumen_FY": 905
+                },
+                {
+                  "periodo": "2025-07-01 00:00:00",
+                  "Volumen_FY": 901
+                },
+                {
+                  "periodo": "2025-08-01 00:00:00",
+                  "Volumen_FY": 956
+                },
+                {
+                  "periodo": "2025-09-01 00:00:00",
+                  "Volumen_FY": 972
+                },
+                {
+                  "periodo": "2025-10-01 00:00:00",
+                  "Volumen_FY": 919
+                },
+                {
+                  "periodo": "2025-11-01 00:00:00",
+                  "Volumen_FY": 948
+                },
+                {
+                  "periodo": "2025-12-01 00:00:00",
+                  "Volumen_FY": 961
                 }
               ]
             },
-            "mark": "bar",
-            "encoding": {
-              "y": {
-                "field": "task",
-                "type": "ordinal"
-              },
-              "x": {
-                "field": "start",
-                "type": "quantitative"
-              },
-              "x2": {
-                "field": "end"
-              }
-            }
-          },
-          {
-            "id": 55565,
-            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
-            "data": {
-              "values": [
-                {
-                  "a": "A",
-                  "b": 28
-                },
-                {
-                  "a": "B",
-                  "b": 55
-                },
-                {
-                  "a": "C",
-                  "b": 43
-                }
-              ]
+            "mark": {
+              "type": "line",
+              "point": true,
+              "tooltip": true
             },
             "encoding": {
-              "y": {
-                "field": "a",
-                "type": "nominal"
-              },
               "x": {
-                "field": "b",
+                "field": "periodo",
+                "type": "temporal",
+                "timeUnit": "yearmonth",
+                "axis": {
+                  "title": "Periodo"
+                }
+              },
+              "y": {
+                "field": "Volumen_FY",
                 "type": "quantitative",
-                "scale": {
-                  "domain": [
-                    0,
-                    60
-                  ]
+                "axis": {
+                  "title": "Volumen FY"
                 }
-              }
-            },
-            "layer": [
-              {
-                "mark": "bar"
               },
-              {
-                "mark": {
-                  "type": "text",
-                  "align": "left",
-                  "baseline": "middle",
-                  "dx": 3
-                },
-                "encoding": {
-                  "text": {
-                    "field": "b",
-                    "type": "quantitative"
-                  }
+              "color": {
+                "field": "tipo_periodo",
+                "type": "nominal",
+                "legend": {
+                  "title": "Tipo de Periodo"
                 }
-              }
-            ]
-          },
-          {
-            "id": 465468,
-            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "config": {
-              "view": {
-                "stroke": ""
-              }
-            },
-            "width": 800,
-            "height": 200,
-            "data": {
-              "values": [
+              },
+              "tooltip": [
                 {
-                  "country": "Great Britain",
-                  "animal": "pigs"
+                  "field": "periodo",
+                  "type": "temporal",
+                  "title": "Periodo",
+                  "format": "%b %Y"
                 },
                 {
-                  "country": "Great Britain",
-                  "animal": "pigs"
+                  "field": "Volumen_FY",
+                  "type": "quantitative",
+                  "title": "Volumen FY"
                 },
                 {
-                  "country": "Great Britain",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "Great Britain",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "pigs"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "cattle"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
-                },
-                {
-                  "country": "United States",
-                  "animal": "sheep"
+                  "field": "tipo_periodo",
+                  "title": "Tipo de Periodo"
                 }
               ]
             },
             "transform": [
               {
-                "calculate": "{'cattle': '🐄', 'pigs': '🐖', 'sheep': '🐏'}[datum.animal]",
-                "as": "emoji"
-              },
-              {
-                "window": [
-                  {
-                    "op": "rank",
-                    "as": "rank"
-                  }
-                ],
-                "groupby": [
-                  "country",
-                  "animal"
-                ]
+                "calculate": "month(toDate(datum.periodo)) <= 6 ? 'YTD' : 'Resto del Año'",
+                "as": "tipo_periodo"
               }
-            ],
-            "mark": {
-              "type": "text",
-              "baseline": "middle"
-            },
-            "encoding": {
-              "x": {
-                "field": "rank",
-                "type": "ordinal",
-                "axis": null
-              },
-              "y": {
-                "field": "animal",
-                "type": "nominal",
-                "axis": null,
-                "sort": null
-              },
-              "row": {
-                "field": "country",
-                "header": {
-                  "title": ""
-                }
-              },
-              "text": {
-                "field": "emoji",
-                "type": "nominal"
-              },
-              "size": {
-                "value": 65
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "status": 1,
-        "createDate": "2025-08-15T17:38:29.466000",
-        "lastUpdateDate": "2025-08-15T17:38:29.466000",
-        "lastUpdateUser": "adminfinsight@alicorp.com",
-        "createUser": "adminfinsight@alicorp.com",
-        "id_project": 2,
-        "id_chat": 1934,
-        "id_user": 3,
-        "title_chat": "aaaaaaaa af",
-        "favorite": null,
-        "graficos": [
+            ]
+          },
           {
-            "id": 162466,
+            "id": 1756161219190,
             "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "description": "A simple bar chart with embedded data.",
+            "description": "Gráfico de Venta Neta por Tonelada por Familia",
+            "title": "Venta Neta por Tonelada por Familia",
             "data": {
               "values": [
                 {
-                  "a": "A",
-                  "b": 28
+                  "des_familia_actual": "Experta Industrial Pastelera",
+                  "total_venta_neta": 808282,
+                  "total_volumen": 147,
+                  "VN_por_TON": 5487
                 },
                 {
-                  "a": "B",
-                  "b": 55
+                  "des_familia_actual": "Nicolini Pastelera",
+                  "total_venta_neta": 178967,
+                  "total_volumen": 27,
+                  "VN_por_TON": 6522
                 },
                 {
-                  "a": "C",
-                  "b": 43
+                  "des_familia_actual": "Experta Industrial Panadera",
+                  "total_venta_neta": 86,
+                  "total_volumen": 0,
+                  "VN_por_TON": 0
                 },
                 {
-                  "a": "D",
-                  "b": 91
+                  "des_familia_actual": "Nicolini Panadera",
+                  "total_venta_neta": 102313,
+                  "total_volumen": 23,
+                  "VN_por_TON": 4441
                 },
                 {
-                  "a": "E",
-                  "b": 81
-                },
-                {
-                  "a": "F",
-                  "b": 53
-                },
-                {
-                  "a": "G",
-                  "b": 19
-                },
-                {
-                  "a": "H",
-                  "b": 87
-                },
-                {
-                  "a": "I",
-                  "b": 52
+                  "des_familia_actual": "Nicolini Panetonera",
+                  "total_venta_neta": -9383,
+                  "total_volumen": 0,
+                  "VN_por_TON": 0
                 }
               ]
             },
             "mark": "bar",
             "encoding": {
-              "x": {
-                "field": "a",
+              "y": {
+                "field": "des_familia_actual",
                 "type": "nominal",
+                "title": "Familia",
+                "sort": "-x"
+              },
+              "x": {
+                "field": "VN_por_TON",
+                "type": "quantitative",
+                "title": "VN por TON (S/)",
                 "axis": {
-                  "labelAngle": 0
+                  "format": ".2s"
                 }
               },
-              "y": {
-                "field": "b",
-                "type": "quantitative"
+              "tooltip": [
+                {
+                  "field": "des_familia_actual",
+                  "title": "Familia"
+                },
+                {
+                  "field": "VN_por_TON",
+                  "title": "VN por TON",
+                  "format": ".2f"
+                }
+              ]
+            },
+            "params": [
+              {
+                "name": "familia_seleccionada",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "Experta Industrial Panadera",
+                    "Experta Industrial Pastelera",
+                    "Nicolini Panadera",
+                    "Nicolini Panetonera",
+                    "Nicolini Pastelera"
+                  ],
+                  "name": "Familia:"
+                }
               }
+            ],
+            "transform": [
+              {
+                "filter": "familia_seleccionada == null || familia_seleccionada === 'Todos' || datum.des_familia_actual === familia_seleccionada"
+              }
+            ]
+          },
+          {
+            "id": 1756161229192,
+            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+            "description": "Gráfico de barras mostrando las principales zonas con reducción de venta neta.",
+            "title": "Principales Zonas con Reducción de Venta Neta (Julio 2025 vs Junio 2025)",
+            "data": {
+              "values": [
+                {
+                  "des_zona_venta_actual": "LIMA",
+                  "venta_neta_julio_2025": 0,
+                  "venta_neta_junio_2025": 283155594.81,
+                  "diferencia_venta_neta": -283155594.81
+                },
+                {
+                  "des_zona_venta_actual": "GUAYAS",
+                  "venta_neta_julio_2025": 0,
+                  "venta_neta_junio_2025": 127609596.35,
+                  "diferencia_venta_neta": -127609596.35
+                },
+                {
+                  "des_zona_venta_actual": "Sin Asignar",
+                  "venta_neta_julio_2025": 0,
+                  "venta_neta_junio_2025": 90639954.69,
+                  "diferencia_venta_neta": -90639954.69
+                },
+                {
+                  "des_zona_venta_actual": "EL ORO",
+                  "venta_neta_julio_2025": 0,
+                  "venta_neta_junio_2025": 31162444.88,
+                  "diferencia_venta_neta": -31162444.88
+                },
+                {
+                  "des_zona_venta_actual": "TRUJILLO",
+                  "venta_neta_julio_2025": 0,
+                  "venta_neta_junio_2025": 27552647.91,
+                  "diferencia_venta_neta": -27552647.91
+                }
+              ]
+            },
+            "mark": "bar",
+            "encoding": {
+              "y": {
+                "field": "des_zona_venta_actual",
+                "type": "nominal",
+                "title": "Zona de Venta",
+                "sort": "-x"
+              },
+              "x": {
+                "field": "diferencia_venta_neta",
+                "type": "quantitative",
+                "title": "Reducción de Venta Neta (PEN)"
+              },
+              "tooltip": [
+                {
+                  "field": "des_zona_venta_actual",
+                  "title": "Zona",
+                  "type": "nominal"
+                },
+                {
+                  "field": "diferencia_venta_neta",
+                  "title": "Reducción Venta Neta",
+                  "type": "quantitative",
+                  "format": ".2f"
+                }
+              ]
             }
           },
           {
-            "id": 654645,
+            "id": 1756161229193,
             "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "repeat": {
-              "layer": [
-                "Worldwide Gross",
-                "US Gross"
+            "description": "Gráfico de pastel mostrando la Utilidad Bruta por mes para la categoría Aceites.",
+            "title": "Utilidad Bruta por Mes (Categoría Aceites)",
+            "data": {
+              "values": [
+                {
+                  "mes": "2025-01",
+                  "des_categoria_actual": "Aceites",
+                  "Utilidad_Bruta": 20361838.5104
+                },
+                {
+                  "mes": "2025-02",
+                  "des_categoria_actual": "Aceites",
+                  "Utilidad_Bruta": 20610213.57
+                },
+                {
+                  "mes": "2025-03",
+                  "des_categoria_actual": "Aceites",
+                  "Utilidad_Bruta": 18767994.07
+                }
               ]
             },
-            "spec": {
-              "mark": "bar",
-              "encoding": {
-                "x": {
-                  "field": "Major Genre",
-                  "type": "nominal"
+            "params": [
+              {
+                "name": "mes_seleccionado",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "Enero",
+                    "Febrero",
+                    "Marzo"
+                  ],
+                  "name": "Mes:"
+                }
+              }
+            ],
+            "transform": [
+              {
+                "calculate": "datum.mes == '2025-01' ? 'Enero' : datum.mes == '2025-02' ? 'Febrero' : datum.mes == '2025-03' ? 'Marzo' : 'Desconocido'",
+                "as": "nombre_mes"
+              },
+              {
+                "filter": "mes_seleccionado == null || mes_seleccionado === 'Todos' || datum.nombre_mes === mes_seleccionado"
+              },
+              {
+                "joinaggregate": [
+                  {
+                    "op": "sum",
+                    "field": "Utilidad_Bruta",
+                    "as": "total_utilidad_bruta"
+                  }
+                ]
+              },
+              {
+                "calculate": "datum.Utilidad_Bruta / datum.total_utilidad_bruta",
+                "as": "percentage"
+              }
+            ],
+            "layer": [
+              {
+                "mark": {
+                  "type": "arc",
+                  "outerRadius": 120
                 },
-                "y": {
-                  "aggregate": "sum",
-                  "field": {
-                    "repeat": "layer"
+                "encoding": {
+                  "theta": {
+                    "field": "Utilidad_Bruta",
+                    "type": "quantitative",
+                    "stack": true
                   },
-                  "type": "quantitative",
-                  "title": "Total Gross"
-                },
-                "color": {
-                  "datum": {
-                    "repeat": "layer"
+                  "color": {
+                    "field": "nombre_mes",
+                    "type": "nominal",
+                    "title": "Mes"
                   },
-                  "title": "Gross"
+                  "order": {
+                    "field": "Utilidad_Bruta",
+                    "sort": "descending"
+                  },
+                  "tooltip": [
+                    {
+                      "field": "nombre_mes",
+                      "title": "Mes",
+                      "type": "nominal"
+                    },
+                    {
+                      "field": "Utilidad_Bruta",
+                      "title": "Utilidad Bruta",
+                      "type": "quantitative",
+                      "format": ".2f"
+                    },
+                    {
+                      "field": "percentage",
+                      "title": "Porcentaje",
+                      "type": "quantitative",
+                      "format": ".1%"
+                    }
+                  ]
+                }
+              },
+              {
+                "mark": {
+                  "type": "text",
+                  "radius": 140
                 },
-                "xOffset": {
-                  "datum": {
-                    "repeat": "layer"
+                "encoding": {
+                  "theta": {
+                    "field": "Utilidad_Bruta",
+                    "type": "quantitative",
+                    "stack": true
+                  },
+                  "text": {
+                    "field": "percentage",
+                    "type": "quantitative",
+                    "format": ".1%"
+                  },
+                  "order": {
+                    "field": "Utilidad_Bruta",
+                    "sort": "descending"
+                  },
+                  "color": {
+                    "value": "black"
                   }
                 }
               }
-            },
-            "config": {
-              "mark": {
-                "invalid": null
-              }
+            ],
+            "view": {
+              "stroke": null
             }
           },
           {
-            "id": 112222,
+            "id": 1756161239194,
             "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-            "mark": "bar",
+            "description": "Gráfico de la venta neta de las categorías de harinas y aceites por periodo.",
+            "title": "Venta Neta de Harinas y Aceites (Nov 2024 - Jun 2025)",
+            "data": {
+              "values": [
+                {
+                  "periodo": "2024-11-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 129575925.33
+                },
+                {
+                  "periodo": "2024-11-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 81242234.43
+                },
+                {
+                  "periodo": "2024-12-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 137231186.76
+                },
+                {
+                  "periodo": "2024-12-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 70213143.65
+                },
+                {
+                  "periodo": "2025-01-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 106117334.4504
+                },
+                {
+                  "periodo": "2025-01-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 63282360.6489
+                },
+                {
+                  "periodo": "2025-02-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 95219777.73
+                },
+                {
+                  "periodo": "2025-02-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 64324911.6
+                },
+                {
+                  "periodo": "2025-03-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 114408666.17
+                },
+                {
+                  "periodo": "2025-03-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 71468459.18
+                },
+                {
+                  "periodo": "2025-04-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 100821012.76
+                },
+                {
+                  "periodo": "2025-04-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 73956238.8
+                },
+                {
+                  "periodo": "2025-05-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 112215063.83
+                },
+                {
+                  "periodo": "2025-05-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 74035346.77
+                },
+                {
+                  "periodo": "2025-06-01 00:00:00",
+                  "des_categoria": "Aceites",
+                  "total_venta_neta": 107367232.16
+                },
+                {
+                  "periodo": "2025-06-01 00:00:00",
+                  "des_categoria": "Harinas",
+                  "total_venta_neta": 75686082.24
+                }
+              ]
+            },
+            "mark": {
+              "type": "line",
+              "point": true
+            },
             "encoding": {
               "x": {
-                "aggregate": "sum",
-                "field": "yield"
+                "field": "periodo",
+                "type": "temporal",
+                "axis": {
+                  "title": "Periodo",
+                  "format": "%b %Y"
+                }
               },
               "y": {
-                "field": "variety"
+                "field": "total_venta_neta",
+                "type": "quantitative",
+                "axis": {
+                  "title": "Venta Neta (PEN)"
+                }
               },
               "color": {
-                "field": "site"
+                "field": "des_categoria",
+                "type": "nominal",
+                "legend": {
+                  "title": "Categoría"
+                }
+              },
+              "tooltip": [
+                {
+                  "field": "periodo",
+                  "type": "temporal",
+                  "title": "Periodo",
+                  "format": "%B %Y"
+                },
+                {
+                  "field": "des_categoria",
+                  "type": "nominal",
+                  "title": "Categoría"
+                },
+                {
+                  "field": "total_venta_neta",
+                  "type": "quantitative",
+                  "title": "Venta Neta",
+                  "format": ".2f"
+                }
+              ]
+            },
+            "params": [
+              {
+                "name": "categoria_seleccionada",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "Aceites",
+                    "Harinas"
+                  ],
+                  "name": "Categoría:"
+                }
+              },
+              {
+                "name": "mes_seleccionado",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "Noviembre 2024",
+                    "Diciembre 2024",
+                    "Enero 2025",
+                    "Febrero 2025",
+                    "Marzo 2025",
+                    "Abril 2025",
+                    "Mayo 2025",
+                    "Junio 2025"
+                  ],
+                  "name": "Mes:"
+                }
               }
-            }
+            ],
+            "transform": [
+              {
+                "calculate": "timeFormat(datum.periodo, '%B %Y')",
+                "as": "periodo_display"
+              },
+              {
+                "filter": "categoria_seleccionada == null || categoria_seleccionada === 'Todos' || datum.des_categoria === categoria_seleccionada"
+              },
+              {
+                "filter": "mes_seleccionado == null || mes_seleccionado === 'Todos' || datum.periodo_display === mes_seleccionado"
+              }
+            ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "id_project": 4,
-    "id_user": 3,
-    "chats": [
-      {
-        "id": 1,
-        "status": 1,
-        "createDate": "2025-08-22T14:28:18.990000",
-        "lastUpdateDate": "2025-08-22T14:28:18.990000",
-        "lastUpdateUser": "adminfinsight@alicorp.com",
-        "createUser": "adminfinsight@alicorp.com",
-        "id_project": 2,
-        "id_chat": 2755,
-        "id_user": 3,
-        "title_chat": "reporte de acites"
       },
       {
         "id": 2,
@@ -598,7 +611,377 @@
         "id_project": 2,
         "id_chat": 1934,
         "id_user": 3,
-        "title_chat": "Dame el top 10 de clientes con mayor incremento de volumen (en toneladas) en el último año YTD vs el año anterior."
+        "title_chat": "Gastos administrativos de Jabón Bolivar en Julio 2025",
+        "desc_chat": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "favorite": null,
+        "graficos": [
+          {
+            "id": 1,
+            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+            "description": "Gráfico de Volumen de Ventas por Responsable de Pago para el año 2025",
+            "title": "Volumen de Ventas por Responsable de Pago (2025)",
+            "data": {
+              "values": [
+                {
+                  "periodo": "2025-01-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 1256.0294
+                },
+                {
+                  "periodo": "2025-01-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1260.298
+                },
+                {
+                  "periodo": "2025-02-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 2996.267
+                },
+                {
+                  "periodo": "2025-02-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1363.2443
+                },
+                {
+                  "periodo": "2025-03-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 2866.919
+                },
+                {
+                  "periodo": "2025-03-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1611.2849
+                },
+                {
+                  "periodo": "2025-04-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 2915.82
+                },
+                {
+                  "periodo": "2025-04-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1117.485
+                },
+                {
+                  "periodo": "2025-05-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 3260.854
+                },
+                {
+                  "periodo": "2025-05-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1492.857
+                },
+                {
+                  "periodo": "2025-06-01 00:00:00",
+                  "des_responsable_pago_actual": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 3050.3265
+                },
+                {
+                  "periodo": "2025-06-01 00:00:00",
+                  "des_responsable_pago_actual": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 1554.915
+                }
+              ]
+            },
+            "mark": {
+              "type": "line",
+              "point": true
+            },
+            "encoding": {
+              "x": {
+                "field": "mes_nombre",
+                "type": "ordinal",
+                "title": "Mes",
+                "sort": [
+                  "Enero",
+                  "Febrero",
+                  "Marzo",
+                  "Abril",
+                  "Mayo",
+                  "Junio",
+                  "Julio",
+                  "Agosto",
+                  "Septiembre",
+                  "Octubre",
+                  "Noviembre",
+                  "Diciembre"
+                ]
+              },
+              "y": {
+                "field": "total_volumen_ventas",
+                "type": "quantitative",
+                "title": "Volumen de Ventas"
+              },
+              "color": {
+                "field": "des_responsable_pago_actual",
+                "type": "nominal",
+                "title": "Responsable de Pago"
+              },
+              "tooltip": [
+                {
+                  "field": "mes_nombre",
+                  "title": "Mes"
+                },
+                {
+                  "field": "des_responsable_pago_actual",
+                  "title": "Responsable de Pago"
+                },
+                {
+                  "field": "total_volumen_ventas",
+                  "title": "Volumen de Ventas",
+                  "format": ".2f"
+                }
+              ]
+            },
+            "params": [
+              {
+                "name": "responsable_seleccionado",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "FUERZADEX S.A.C.",
+                    "INVERSIONES PUCARA S.A.C"
+                  ],
+                  "name": "Responsable de Pago:"
+                }
+              },
+              {
+                "name": "mes_seleccionado",
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    "Todos",
+                    "Enero",
+                    "Febrero",
+                    "Marzo",
+                    "Abril",
+                    "Mayo",
+                    "Junio"
+                  ],
+                  "name": "Mes:"
+                }
+              }
+            ],
+            "transform": [
+              {
+                "calculate": "month(datum.periodo) == 0 ? 'Enero' : month(datum.periodo) == 1 ? 'Febrero' : month(datum.periodo) == 2 ? 'Marzo' : month(datum.periodo) == 3 ? 'Abril' : month(datum.periodo) == 4 ? 'Mayo' : month(datum.periodo) == 5 ? 'Junio' : month(datum.periodo) == 6 ? 'Julio' : month(datum.periodo) == 7 ? 'Agosto' : month(datum.periodo) == 8 ? 'Septiembre' : month(datum.periodo) == 9 ? 'Octubre' : month(datum.periodo) == 10 ? 'Noviembre' : 'Diciembre'",
+                "as": "mes_nombre"
+              },
+              {
+                "filter": "responsable_seleccionado == null || responsable_seleccionado === 'Todos' || datum.des_responsable_pago_actual === responsable_seleccionado"
+              },
+              {
+                "filter": "mes_seleccionado == null || mes_seleccionado === 'Todos' || datum.mes_nombre === mes_seleccionado"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+            "description": "Comparación de Utilidad Bruta Real y Proyectada para 2025",
+            "title": "Utilidad Bruta Real vs. Proyectada (2025)",
+            "data": {
+              "values": [
+                {
+                  "anio": 2025,
+                  "des_segmento": "Consumo Masivo",
+                  "des_jerarquia_pais": "Perú",
+                  "des_pais": "Perú",
+                  "des_moneda": "Soles",
+                  "tipo_dato": "Real",
+                  "utilidad_bruta": 707144437.9223
+                },
+                {
+                  "anio": 2025,
+                  "des_segmento": "Consumo Masivo",
+                  "des_jerarquia_pais": "Perú",
+                  "des_pais": "Perú",
+                  "des_moneda": "Soles",
+                  "tipo_dato": "Proyectado",
+                  "utilidad_bruta": 2630103614.36
+                }
+              ]
+            },
+            "mark": "bar",
+            "encoding": {
+              "x": {
+                "field": "tipo_dato",
+                "type": "nominal",
+                "axis": {
+                  "title": "Tipo de Dato"
+                }
+              },
+              "y": {
+                "field": "utilidad_bruta",
+                "type": "quantitative",
+                "axis": {
+                  "title": "Utilidad Bruta"
+                }
+              },
+              "color": {
+                "field": "tipo_dato",
+                "type": "nominal",
+                "legend": {
+                  "title": "Tipo de Dato"
+                }
+              },
+              "tooltip": [
+                {
+                  "field": "tipo_dato",
+                  "title": "Tipo de Dato"
+                },
+                {
+                  "field": "utilidad_bruta",
+                  "title": "Utilidad Bruta",
+                  "format": ".2f"
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+            "description": "Gráfico de anillo mostrando la proporción de utilidad bruta por país para el segundo trimestre de 2025.",
+            "title": "Proporción de Utilidad Bruta por País (Q2 2025)",
+            "data": {
+              "values": [
+                {
+                  "des_pais": "Perú",
+                  "total_utilidad_bruta": 514294366.23
+                },
+                {
+                  "des_pais": "Ecuador",
+                  "total_utilidad_bruta": 153907696.72
+                },
+                {
+                  "des_pais": "Bolivia",
+                  "total_utilidad_bruta": 66071433.03
+                },
+                {
+                  "des_pais": "Chile",
+                  "total_utilidad_bruta": 20377659.77
+                },
+                {
+                  "des_pais": "Honduras",
+                  "total_utilidad_bruta": 9077966.19
+                },
+                {
+                  "des_pais": "Panamá",
+                  "total_utilidad_bruta": 5015634.09
+                },
+                {
+                  "des_pais": "Estados Unidos de América",
+                  "total_utilidad_bruta": 3021605.19
+                },
+                {
+                  "des_pais": "Colombia",
+                  "total_utilidad_bruta": 2474639.45
+                },
+                {
+                  "des_pais": "Uruguay",
+                  "total_utilidad_bruta": 1717888.16
+                },
+                {
+                  "des_pais": "Argentina",
+                  "total_utilidad_bruta": 1712072.9
+                },
+                {
+                  "des_pais": "Other",
+                  "total_utilidad_bruta": 5000000.0
+                }
+              ]
+            },
+            "mark": {
+              "type": "arc",
+              "outerRadius": 120,
+              "innerRadius": 80,
+              "tooltip": true
+            },
+            "encoding": {
+              "theta": {
+                "field": "total_utilidad_bruta",
+                "type": "quantitative",
+                "stack": true
+              },
+              "color": {
+                "field": "des_pais",
+                "type": "nominal",
+                "title": "País",
+                "sort": {
+                  "field": "total_utilidad_bruta",
+                  "order": "descending"
+                }
+              },
+              "order": {
+                "field": "total_utilidad_bruta",
+                "sort": "descending"
+              },
+              "tooltip": [
+                {
+                  "field": "des_pais",
+                  "title": "País"
+                },
+                {
+                  "field": "total_utilidad_bruta",
+                  "type": "quantitative",
+                  "title": "Utilidad Bruta",
+                  "format": ".2f"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4, 
+            "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+            "description": "Comparación de volumen de ventas entre clientes específicos para el año 2025 en Soles.",
+            "title": "Comparación de Volumen de Ventas por Cliente (2025, Soles)",
+            "data": {
+              "values": [
+                {
+                  "des_cliente": "FUERZADEX S.A.C.",
+                  "total_volumen_ventas": 16346.2159
+                },
+                {
+                  "des_cliente": "INVERSIONES PUCARA S.A.C",
+                  "total_volumen_ventas": 8400.0842
+                }
+              ]
+            },
+            "mark": "bar",
+            "encoding": {
+              "y": {
+                "field": "des_cliente",
+                "type": "nominal",
+                "title": "Cliente"
+              },
+              "x": {
+                "field": "total_volumen_ventas",
+                "type": "quantitative",
+                "title": "Volumen de Ventas"
+              },
+              "color": {
+                "field": "des_cliente",
+                "type": "nominal",
+                "legend": {
+                  "title": "Cliente"
+                }
+              },
+              "tooltip": [
+                {
+                  "field": "des_cliente",
+                  "title": "Cliente"
+                },
+                {
+                  "field": "total_volumen_ventas",
+                  "title": "Volumen de Ventas",
+                  "format": ".2f"
+                }
+              ]
+            }
+          }
+        ]
       }
     ]
   }
